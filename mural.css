@@ -1,0 +1,90 @@
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+form { 
+display: inline; 
+}
+
+.formular {
+width: 210px;
+}
+
+a:link, a:visited, a:active {
+color: #2A5260;
+text-decoration: none;
+}
+
+a:hover {
+color: #000000;
+text-decoration: underline;
+}
+
+.text {
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size: 12px;
+line-height: 18px;
+}
+
+.copyright {
+font-family: Times, Arial, Helvetica, sans-serif;
+font-size: 12px;
+line-height: 18px;
+}
+
+.error {
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #ff0000;
+line-height: 18px;
+}
+
+.ok {
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #12BB00;
+line-height: 18px;
+}
+
+.headline {
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #58838B;
+font-weight: bold;
+line-height: 18px;
+}
+
+.tablehl {
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #FFFFFF;
+font-weight: bold;
+line-height: 18px;
+}
+
+.tablehl A:link, .tablehl A:visited, .tablehl A:active {
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.tablehl A:hover {
+color: #FFFFFF;
+text-decoration: underline;
+}
+
+.micro {
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size: 10px;
+line-height: 18px;
+color: #58838B;
+}
+
+.star {
+font-family: Courier, Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 18px;
+color: #58838B;
+}

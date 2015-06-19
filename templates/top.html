@@ -1,0 +1,35 @@
+<table cellspacing="0" cellpadding="1" width="{tablewidth}" border="0" bgcolor="{bordercolor}" align="center">
+  <tr> 
+    <td> <table cellspacing="0" cellpadding="15" width="100%" border="0" bgcolor="{tablebgcolor}" align="center">
+        <tr> 
+          <td class="text"> <table cellspacing="0" cellpadding="0" width="100%" border="0">
+              <tr> 
+                <td class="headline">{logo}</td>
+                <td class="text" align="right" nowrap="nowrap">
+				<IF NAME="sign">
+				<a href="recados.php">{lang_signgb}</a>
+				</IF NAME="sign">
+				<IF NAME="view">{helplink}&nbsp;|&nbsp;<a href="index.php">{lang_viewgb}</a>
+				</IF NAME="view">
+				</td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<br />
+<table cellspacing="0" cellpadding="1" width="{tablewidth}" border="0" bgcolor="{bordercolor}" align="center">
+  <tr> 
+    <td> <table cellspacing="0" cellpadding="15" width="100%" border="0" bgcolor="{tablebgcolor}" align="center">
+        <tr> 
+          <td>
+<IF NAME="pageing">
+<table border="0" cellspacing="1" cellpadding="0" width="100%">
+  <tr>
+    <td class="text" width="50%">{stats} ({hits})</td>
+    <td class="text" align="right" width="50%">{pagenums}</td>
+  </tr>
+</table>
+<br />
+</IF NAME="pageing">

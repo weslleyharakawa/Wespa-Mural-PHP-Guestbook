@@ -1,0 +1,116 @@
+==================================================
+WESPA Mural de Recados v4.1 (11/05/2012) (c) 2012
+==================================================
+Autor: Weslley A. Harakawa (weslley@wcre8tive.com)
+
+Este script de Mural de Recados permite à você inserir em seu website 
+um mural dinâmico onde os visitantes de seu site poderão deixar 
+recados públicos. Os recados podem ser gerenciados por você através 
+de um administrador, cujo acesso é dado através de usuário e senha. 
+
+Características:
+- Permite a inserção de avatares por parte do usuário;
+- Administrador para editar e remover recados;
+- Trabalha com templates, permitindo total integração com seu website.
+
+
+
+========================================
+I N S T A L A Ç Ã O 
+========================================
+
+Requerimentos:
+============================================
+- PHP 5.0 ou superior 
+- Sessão precisa funcionar
+- PHP Upload necessira estar habilitado
+- Função PHP Mail precisar estar funcionando
+- MySQL 3.23+ (3.23.33+ recomendado)
+
+
+Procedimento para instalação:
+============================================
+1. Subir arquivos pelo FTP
+-------------
+Envie todos os sub-diretórios e arquivos para uma pasta 
+chamada "mural", para o seu servidor web.
+
+
+2. chmod* arquivos e pastas
+---------------------------
+
+Configure permissões de CHMOD* para os seguintes arquivos:
+
+PASTAS
+images/avatars		chmod 0777	(Pasta para Avatares)
+images/smilies		chmod 0777	(Pasta para Emoticons)
+templates	        chmod 0777	(Pasta para Templates)
+
+ARQUIVOS
+mysql.inc.php na pasta "includes"	chmod 0666
+mural.css				chmod 0666	(na pasta raíz)
+todos os arquivos na pasta: "templates"	chmod 0666
+todos os arquivos na pasta: "backups"	chmod 0666
+
+* Você pode dar permissões de CHMOD usando um programa de FTP. 
+  Sugerimos o uso do software cliente de FTP chamado Filezilla
+  que é gratuíto e pode ser baixado do endereço 
+  http://filezilla.sourceforge.net/
+
+
+3. Configurando tabelas de banco de dados MySQL
+------------------------------
+Execute o instalador do script em seu navegador 
+Ex; http://seu.dominio.com/mural/instalar.php
+
+Agora informe os detalhes sobre o seu banco de dados. O instalador
+do script vai criar tabelas no banco de dados. Você pode definir
+qual será o prefixo destas tabelas.
+
+
+
+MUITO IMPORTANTE: 
+Depois de efetuar uma instalação com sucesso, o arquivo
+instalar.php deve ser removido de seu servidor!
+
+
+4. Mudando o login do administrador
+---------------------
+Agora você já pode acessar o administardor de seu
+mural de recados e mudar o usuário e senha.
+Clique no link "Configuração" no navegador do
+administrador.
+
+O login e senha padrão do administrador são:
+Usuário:	mural
+Senha:		mural
+
+Você pode acessar sua área administrativa via
+http://seu.dominio.com/mural/admin/
+
+
+
+Suporte e ajuda para instalação:
+============================================
+ESTE SCRIPT NÃO OFERECE SUPORTE GRATUÍTO!
+
+Se você precisar de ajuda para instalar este script ou suporte 
+para uso e modificações, oferecemos esse atendimento por uma tarifa 
+bem econômica que pode ser combinada. Se deseja suporte e pode pagar 
+por isso escreva para info@wespadigital.com ou acesse nosso site 
+em http://www.wespadigital.com
+
+
+
+
+
+
+
+
+#################################################################
+# Wespa Digital Ltda, websites, jornalismo, publicidade e multimídia #
+#################################################################
+http://www.wespadigital.com
+info@wespadigital.com
+
+Documento revisado em 11 de maio de 2012
